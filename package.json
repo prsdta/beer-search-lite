@@ -9,8 +9,12 @@
     "lint": "prettier --check \"src/**/*.{js,jsx,ts,tsx}\""
   },
   "dependencies": {
+    "fela-preset-web": "^11.3.1",
+    "pratica": "^2.0.3",
     "react": "^0.0.0-experimental-94c0244ba",
-    "react-dom": "^0.0.0-experimental-94c0244ba"
+    "react-dom": "^0.0.0-experimental-94c0244ba",
+    "react-fela": "^11.3.1",
+    "react-query": "^2.15.1"
   },
   "devDependencies": {
     "@snowpack/app-scripts-react": "^1.10.0",
