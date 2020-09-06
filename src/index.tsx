@@ -2,12 +2,15 @@ import React from "react";
 // @ts-ignore
 import { unstable_createRoot as createRoot } from "react-dom";
 import App from "./App";
+import FelaProvider from "./fela.renderer";
 
 import "./lib/css_reset.css";
 
 createRoot(document.getElementById("root")).render(
 	<React.StrictMode>
-		<App />
+		<FelaProvider>
+			<App />
+		</FelaProvider>
 	</React.StrictMode>,
 );
 
