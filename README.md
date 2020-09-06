@@ -1,6 +1,9 @@
-# New Project
+# Quick search beers
 
 > ✨ Bootstrapped with Create Snowpack App (CSA).
+
+Simple app whose goal is to make looking for beers and their rating much quicker
+and with less visual noise than in the untappd app (and also to try libraries).
 
 ## Available Scripts
 
@@ -23,7 +26,3 @@ Builds a static copy of your site to the `build/` folder.
 Your app is ready to be deployed!
 
 **For the best production performance:** Add a build bundler plugin like "@snowpack/plugin-webpack" or "@snowpack/plugin-parcel" to your `snowpack.config.json` config file.
-
-### Q: What about Eject?
-
-No eject needed! Snowpack guarantees zero lock-in, and CSA strives for the same.
