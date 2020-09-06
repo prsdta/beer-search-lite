@@ -3,14 +3,17 @@ import React from "react";
 import { unstable_createRoot as createRoot } from "react-dom";
 import App from "./App";
 import FelaProvider from "./fela.renderer";
+import ReactQueryProvider from "./react_query.config";
 
 import "./lib/css_reset.css";
 
 createRoot(document.getElementById("root")).render(
 	<React.StrictMode>
-		<FelaProvider>
-			<App />
-		</FelaProvider>
+		<ReactQueryProvider>
+      <FelaProvider>
+			  <App />
+		  </FelaProvider>
+    </ReactQueryProvider>
 	</React.StrictMode>,
 );
 
